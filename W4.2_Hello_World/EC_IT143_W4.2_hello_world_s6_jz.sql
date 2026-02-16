@@ -1,0 +1,5 @@
+TRUNCATE TABLE t_hello_world;
+
+INSERT INTO t_hello_world (Message)
+SELECT Message
+FROM v_hello_world;
