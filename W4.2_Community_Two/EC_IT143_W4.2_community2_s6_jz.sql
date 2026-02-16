@@ -1,0 +1,5 @@
+TRUNCATE TABLE t_community2_player_count;
+
+INSERT INTO t_community2_player_count (TeamName, PlayerCount)
+SELECT TeamName, PlayerCount
+FROM v_community2_player_count;
