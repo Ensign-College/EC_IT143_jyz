@@ -1,0 +1,1 @@
+EXEC usp_load_community1_record_count;
