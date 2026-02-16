@@ -1,0 +1,1 @@
+EXEC usp_load_community2_player_count;
